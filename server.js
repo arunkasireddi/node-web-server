@@ -58,9 +58,9 @@ app.get('/bad', (req, res) => {
 });
 
 app.get('/projects', (req, res) => {
-    res.render('project.hbs', {
-        pageTitle: 'Portfolio page',
-        welcomeMessage: 'Welcome to portfolio page'
+    res.render('projects.hbs', {
+        pageTitle: 'Projects page',
+        welcomeMessage: 'Welcome to projects page'
     });
 });
 
